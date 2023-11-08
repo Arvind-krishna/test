@@ -19,7 +19,7 @@ if st.button('Show Image'):
         st.image(train_images[selected_index], width=150, caption=f"Image of {number}")
     else:
         st.write(f"No images found for the number {number} in the dataset.")
-********************************************************************************************************************************
+
 
 
 import streamlit as st
